@@ -75,29 +75,3 @@ function endGame(){
 }
 
 
-
-
-
-
-/*
-buttons.forEach((button)=>{
-     button.addEventListener('click',()=>{
-       const playerSelection = button.className;
-       const results = document.createElement('div');
-       results.textContent = playRound(playerSelection,computerPlay()); 
-       body.appendChild(results);
-    });
-});
-*/
-
-  /*
-    function game(){
-        let counter =0;
-        let userInput;
-        for(let i=0;i<5;i++){
-            userInput = prompt("Enter your move!")
-            counter += playRound(userInput.toLowerCase(),computerPlay()); 
-        }
-        return (counter<3)?"You Lose":"You Win!";
-    }
-    */
