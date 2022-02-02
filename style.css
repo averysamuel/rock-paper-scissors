@@ -1,0 +1,34 @@
+body{
+    font-family:sans-serif; 
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+h2{
+    flex-shrink: 0;
+}
+
+div{
+    display:flex;
+    gap: 15px; 
+    align-items: center;  
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+
+.score,
+.score-left,
+.score-right{
+    display:flex;
+    justify-content: space-around;
+}
+.score-left,
+.score-right{
+flex-direction: column;
+}
+
